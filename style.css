@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif', serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top: 0;
+    z-index: 2;
+    
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 8px 18px;
+    margin: 29px 42px;
+    border-radius: 26px;
+    background-color: rgb(62,62,62);
+    color: white;
+    font-size: 1rem;
+}
+#logo{
+    margin: 6px 12px;
+    padding: 0px 0px;
+}
+#navbar ul li a:hover{
+    background-color: rgb(0, 0, 0);
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.9;
+}
+/* Home */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h-primary{
+    font-size: 2.3rem;
+    margin: 11px 0px;
+    padding: 0px 0px;
+    color: black;
+    text-align: center;
+
+}
+.p-primary{
+    font-size: 1.2rem;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    color: black;
+    text-align: center;
+}
+#home::before{
+    content: "";
+    background: url("rgr.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 1.2;
+    height: 430px;
+
+
+}
+.btn{
+    margin: 7px 0px;
+    padding: 2px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+}
+.btn:hover{
+    color:black;
+    background-color: grey;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Our Services */
+#services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+}
+.h-secondry{
+    text-align: center;
+    margin: 173px 0px;
+    padding: 0px 0px;
+}
+
+
+.box{
+    width: 400px;
+    height: 267px;
+    margin: 0px 21px;
+    padding: 0px 0px;
+    position: relative;
+    bottom: 161px;
+    border-radius: 48px;
+    background-color: rgb(223,223,223);
+}
+.box img{
+    width: 100px;
+    height: 100px;
+    margin: 4px 132px;
+    padding: 0px 0px;
+}
+.boxname{
+    margin: 3px 105px;
+}
+.p-secondry{
+    margin: 0px 0px;
+    padding: 0px 14px;
+    text-align: center;
+    font-weight: bold;
+}
+/* Our Clients */
+.h3rd{
+    text-align: center;
+    margin: -133px 3px;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    width: 100px;
+    height: 100px;
+    padding: 148px 34px;
+
+}
+#clients::before{
+    content: "";
+    background: url("clients.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    height: 231px;
+}
+/* contact us */
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    margin: 61px 4px;
+    padding: 4px 4px;
+}
+.h4th{
+    text-align: center;
+    margin: -63px 0px;
+}
+.form{
+    margin: 0px 0px;
+    padding: 3px 93px;
+}
+#contact::before{
+    content: "";
+    background: url("contact.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    height: 297px;
+
+}
+.send{
+    width: 80px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 127px;
+}
+.send:hover{
+    background-color:grey;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    
+
+}
+/* Footer  */
+.rtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -40px 0px;
+    padding: 0px 0px;
+}
